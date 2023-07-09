@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+  int qt, i,x,y;
+  scanf("%d", &qt);
+  for(i = 0; i < qt; i++){
+    scanf("%d %d", &x,&y);
+    if(y == 0){printf("divisao impossivel\n");}
+    else{
+      printf("%.1f\n", (float)x/y);
+    }
+  }
+}
